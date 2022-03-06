@@ -325,7 +325,7 @@ def onmessage(update,bot:ObigramClient):
 
         if '/start' in msgText:
             start_msg = 'Bot     : downloader v2.1\n'
-            start_msg+= 'Devela  : @pulipulichito\n'
+            start_msg+= 'Devela  : @ernesto505\n'
             start_msg+= 'Api     : Telegram.org\n'
             start_msg+= 'Enviame ☺ Enlaces De Descarga Para Procesar\n'
             bot.editMessageText(message,start_msg)
