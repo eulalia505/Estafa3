@@ -174,7 +174,7 @@ def onmessage(update,bot:ObigramClient):
         except:pass
 
         if username not in config.PV_USERS:
-            bot.sendMessage(update.message.chat.id,'🚫Pídele acceso🛇 a mi desarrollador: @pulipulichito')
+            bot.sendMessage(update.message.chat.id,'🚫Pídele acceso🛇 a mi desarrollador: @ernesto505')
             return
 
         if config.getUser(username) is None:
